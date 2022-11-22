@@ -34,9 +34,9 @@ public class JogadoresAgragacao implements IAgregadorJogadores{
 		if(this.interadorJogadores != null) {
 			throw new IllegalArgumentException("Jogo já iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
 		}
-		if(this.quantidadeJogadores < 5) {
+		if(this.quantidadeJogadores < 6) {
 			for (JogadorModel jogadorModel : this.listaJogadores) {
-				if(jogadorModel.retornaPecaDoJogador() == peca) {
+				if(jogadorModel.retornaPecaDoJogador().equals(peca)) {
 					throw new IllegalArgumentException("Algum jogador já escolheu essa peça!");
 				}
 			}
@@ -47,7 +47,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores{
 		}
 	}
 	
-	public boolean removeJogador(String peca) {
+	public boolean removerJogador(String peca) {
 		// se interador já criado, não pode mudar os jogadores
 		if(this.interadorJogadores != null) {
 			throw new IllegalArgumentException("Jogo já iniciado, se quiser remover um jogador, reinicie o jogo!");
@@ -58,7 +58,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores{
 			
 	        while (itr.hasNext()){
 	            JogadorModel x = itr.next();
-	            if (x.retornaPecaDoJogador() == peca) {
+	            if (x.retornaPecaDoJogador().equals(peca)) {
 	            	itr.remove();
 	            	return true;
 	            }

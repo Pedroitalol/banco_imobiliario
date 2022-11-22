@@ -15,11 +15,20 @@ public class Index {
 			JogadoresAgregacaoView teste = new JogadoresAgregacaoView();
 			teste.prepararJogo();
 			teste.adicionarJogador();
-			teste.verJogadores();
 			teste.adicionarJogador();
-			teste.verJogadores();
 			teste.adicionarJogador();
-			teste.verJogadores();
+			teste.adicionarJogador();
+			teste.adicionarJogador();
+			teste.adicionarJogador();
+			teste.adicionarJogador();
+			teste.adicionarJogador();
+			teste.removerJogador();
+			teste.removerJogador();
+			teste.removerJogador();
+			teste.removerJogador();
+			teste.removerJogador();
+			teste.removerJogador();
+			teste.removerJogador();
 			teste.removerJogador();
 			teste.verJogadores();
 			

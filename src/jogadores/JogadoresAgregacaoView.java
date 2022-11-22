@@ -28,7 +28,7 @@ public class JogadoresAgregacaoView {
 		System.out.println("Por favor, digite o nome da peça do jogador que deseja remover");
 		String peca = terminal.nextLine();
 		try {
-			this.jogadorController.adicionarJogador(peca);
+			this.jogadorController.removerJogador(peca);
 		} catch (Exception e) {
 			System.out.println("Não foi possível remover jogador, pois: " + e.getMessage());
 		}

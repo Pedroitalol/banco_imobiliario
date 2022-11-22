@@ -13,8 +13,8 @@ public class JogadoresAgregacaoController {
 		this.jogadores.adicionarJogador(2000, peca);
 	}
 	
-	public void removeJogador(String peca) {
-		this.jogadores.removeJogador(peca);
+	public void removerJogador(String peca) {
+		this.jogadores.removerJogador(peca);
 	}
 	
 	public String verJogadores() {
