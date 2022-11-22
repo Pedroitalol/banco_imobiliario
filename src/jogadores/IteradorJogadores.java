@@ -29,6 +29,28 @@ public class IteradorJogadores implements IIteradorJogadores{
 		JogadorModel ret = this.listaJogadores.get(this.interador);
 		return ret;
 	}
+	
+	// retorna próximo jogador do que foi enviado
+	public JogadorModel proximoJogador(JogadorModel jogador) {
+		int interador = 0;
+		for (JogadorModel jogadorModel : listaJogadores) {
+			if(jogadorModel.retornaPecaDoJogador() == jogador.retornaPecaDoJogador()) {
+				break;
+			}else {
+				interador++;
+			}
+		}
+		if(interador <= 0) {
+			throw new IllegalArgumentException("Erro interno, o IteradorJogadores.proximoJogador está errado!");
+		}
+		if(interador == this.quantidadeJogadores - 1) {
+			interador = 0;
+		}else {
+			interador++;
+		}
+		JogadorModel ret = this.listaJogadores.get(interador);
+		return ret;
+	}
 
 	public boolean existeProximoJogador() {
 		return true;
@@ -38,4 +60,6 @@ public class IteradorJogadores implements IIteradorJogadores{
 		JogadorModel ret = this.listaJogadores.get(this.interador);
 		return ret;
 	}
+	
+	
 }
