@@ -3,7 +3,7 @@ package jogadores;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class JogadoresAgragacao implements IAgregadorJogadores{
+public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgragacao{
 	public IIteradorJogadores interadorJogadores;
 	ArrayList<JogadorModel> listaJogadores;
 	int quantidadeJogadores;
@@ -29,7 +29,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores{
 		this.jogadorInicial = jogadorInicial;
 	}
 	
-	public void adicionarJogador(int quantidadeInicial, String peca) {
+	public boolean adicionarJogador(int quantidadeInicial, String peca) {
 		// se interador já criado, não pode mudar os jogadores
 		if(this.interadorJogadores != null) {
 			throw new IllegalArgumentException("Jogo já iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
@@ -42,6 +42,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores{
 			}
 			this.listaJogadores.add(new JogadorModel(quantidadeInicial, peca));
 			this.quantidadeJogadores++;
+			return true;
 		}else {
 			throw new IllegalArgumentException("Quantidade máxima de jogadores atingida!");
 		}

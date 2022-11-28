@@ -1,8 +1,8 @@
 package dado;
 
-public class DadoController {
-	private DadoModel dado1;
-	private DadoModel dado2;
+public class DadoController implements IDadoController{
+	private IDadoModel dado1;
+	private IDadoModel dado2;
 	
 	public DadoController() {
 		this.dado1 = new DadoModel();

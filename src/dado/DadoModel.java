@@ -2,7 +2,7 @@ package dado;
 
 import java.util.Random;
 
-public class DadoModel {
+public class DadoModel implements IDadoModel{
 	private int ultimoValor;
 
 	public DadoModel() {

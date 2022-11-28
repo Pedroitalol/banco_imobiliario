@@ -1,7 +1,7 @@
 package dado;
 
 public class DadoView {
-	private DadoController dadoController;
+	private IDadoController dadoController;
 
 	public DadoView() {
 		this.dadoController = new DadoController();
