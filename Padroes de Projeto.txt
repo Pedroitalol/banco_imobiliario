@@ -1,0 +1,3 @@
+Iterator-Jogadores
+Strategy-Casas
+Observer-Caso especial (ponto de partida)
