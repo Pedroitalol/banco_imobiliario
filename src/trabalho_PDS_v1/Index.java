@@ -16,6 +16,8 @@ public class Index {
 		try {
 			JogadoresAgregacaoView teste = new JogadoresAgregacaoView();
 			CasaAgregacao casas = new CasaAgregacao();
+
+            teste.prepararJogo();
 			teste.adicionarJogador();
 			teste.adicionarJogador();
 			casas.addCasa(new CasaLucros());
@@ -24,6 +26,7 @@ public class Index {
 			casas.executaAcao(0, teste.retornaJogador("1"));
 			casas.executaAcao(1, teste.retornaJogador("2"));
 			
+			teste.verJogadores();
 	    } catch (Exception e) {
 	      	System.out.println(e.getMessage());
 	    }

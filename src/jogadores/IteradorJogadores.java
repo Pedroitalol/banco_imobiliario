@@ -30,7 +30,7 @@ public class IteradorJogadores implements IIteradorJogadores{
 		return ret;
 	}
 	
-	// retorna pr�ximo jogador do que foi enviado
+	// retorna próximo jogador do que foi enviado
 	// Lala: Acho q a verificação de "jogador na prisão" poderia ser feita aqui, só uma ideia.
 	public JogadorModel proximoJogador(JogadorModel jogador) {
 		int interador = 0;
@@ -42,7 +42,7 @@ public class IteradorJogadores implements IIteradorJogadores{
 			}
 		}
 		if(interador <= 0) {
-			throw new IllegalArgumentException("Erro interno, o IteradorJogadores.proximoJogador est� errado!");
+			throw new IllegalArgumentException("Erro interno, o IteradorJogadores.proximoJogador está errado!");
 		}
 		if(interador == this.quantidadeJogadores - 1) {
 			interador = 0;

@@ -11,27 +11,27 @@ public class JogadoresAgregacaoView {
 	}
 	public void prepararJogo() {
 		this.jogadorController = new JogadoresAgregacaoController();
-		System.out.println("Prepara��o de novo jogo iniciada com sucesso");
+		System.out.println("Preparação de novo jogo iniciada com sucesso");
 	}
 	
 	public void adicionarJogador() {
-		System.out.println("Por favor, adicionar nome da pe�a do jogador");
+		System.out.println("Por favor, adicionar nome da peça do jogador");
 		String peca = terminal.nextLine();
 		try {
 			this.jogadorController.adicionarJogador(peca);
 		} catch (Exception e) {
-			System.out.println("N�o foi poss�vel adicionar jogador, pois: " + e.getMessage());
+			System.out.println("Não foi possível adicionar jogador, pois: " + e.getMessage());
 		}
 	}
 	
 	public void removerJogador() {
-		System.out.println("Por favor, digite o nome da pe�a do jogador que deseja remover");
+		System.out.println("Por favor, digite o nome da peça do jogador que deseja remover");
 		String peca = terminal.nextLine();
 		try {
 			boolean ret = this.jogadorController.removerJogador(peca);
-			if(ret == true) System.out.println("jogador de pe�a " + peca + " foi removido com sucesso!");
+			if(ret == true) System.out.println("jogador de peça " + peca + " foi removido com sucesso!");
 		} catch (Exception e) {
-			System.out.println("N�o foi poss�vel remover jogador, pois: " + e.getMessage());
+			System.out.println("Não foi possível remover jogador, pois: " + e.getMessage());
 		}
 	}
 	
@@ -39,7 +39,7 @@ public class JogadoresAgregacaoView {
 		try {
 			System.out.println(this.jogadorController.verJogadores());
 		} catch (Exception e) {
-			System.out.println("N�o foi poss�vel visualizar jogadores, pois: " + e.getMessage());
+			System.out.println("Não foi possível visualizar jogadores, pois: " + e.getMessage());
 		}
 	}
 
