@@ -73,7 +73,14 @@
             <top>
                <HBox prefHeight="69.817" style="-fx-background-color: pink;" BorderPane.alignment="CENTER">
                   <children>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
+                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView>
+                              <image>
+                                 <Image url="@img/parada_livre_img.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                      <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
                      <Pane prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -105,7 +112,14 @@
                         </children></Pane>
                      <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
                      <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
+                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView>
+                              <image>
+                                 <Image url="@img/va_para_a_prisao_img.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                   </children>
                </HBox>
             </top>
@@ -113,7 +127,14 @@
                <VBox prefWidth="68.439" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
                   <children>
                      <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
+                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView>
+                              <image>
+                                 <Image url="@img/lucros_dividendos_img.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                      <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
                      <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
                      <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
