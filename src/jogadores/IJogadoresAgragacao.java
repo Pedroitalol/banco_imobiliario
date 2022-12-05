@@ -5,4 +5,5 @@ public interface IJogadoresAgragacao {
 	public boolean removerJogador(String peca);
 	public String verJogadores();
 	public JogadorModel retornaJogadro(String peca);
+	public String[] retornaNomesPecas();
 }

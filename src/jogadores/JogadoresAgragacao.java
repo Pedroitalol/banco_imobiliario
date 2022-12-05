@@ -104,4 +104,14 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		}
 		throw new IllegalArgumentException("Jogador não encontrado!");
 	}
+
+	public String[] retornaNomesPecas(){
+		String[] ret = new String[this.quantidadeJogadores];
+		int i = 0;
+		for (JogadorModel jogadorModel : listaJogadores) {
+			ret[i] = jogadorModel.retornaPecaDoJogador();
+			i++;
+		}
+		return ret;
+	}
 }

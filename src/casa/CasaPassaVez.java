@@ -1,9 +1,9 @@
 package casa;
 
-import jogadores.JogadorModel;
+import jogadores.IJogadoresAgregacaoController;
 
 public class CasaPassaVez implements ICasa{
-	public void executaAcao(JogadorModel jogadorAtual) {
-		// jogador recebe 200 reais
+	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual) {
+		// não acontece nada
 	}
 }

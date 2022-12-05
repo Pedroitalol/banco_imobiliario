@@ -44,8 +44,11 @@ public class JogadoresAgregacaoView {
 	}
 
 	public JogadorModel retornaJogador(String peca){
-		return this.jogadorController.retornaJogadro(peca);
+		return this.jogadorController.retornaJogador(peca);
 	}
 	
+	public IJogadoresAgregacaoController retronaControllerJogador() {
+		return this.jogadorController;
+	}
 	
 }

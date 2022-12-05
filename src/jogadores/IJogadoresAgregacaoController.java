@@ -4,5 +4,6 @@ public interface IJogadoresAgregacaoController {
 	public void adicionarJogador(String peca);
 	public boolean removerJogador(String peca);
 	public String verJogadores();
-	public JogadorModel retornaJogadro(String peca);
+	public JogadorModel retornaJogador(String peca);
+	public String[] retornaNomesPecas();
 }

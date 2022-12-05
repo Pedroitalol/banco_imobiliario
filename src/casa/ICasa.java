@@ -1,7 +1,7 @@
 package casa;
 
-import jogadores.JogadorModel;
+import jogadores.IJogadoresAgregacaoController;
 
 public interface ICasa {
-	public void executaAcao(JogadorModel jogadorAtual);
+	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual);
 }

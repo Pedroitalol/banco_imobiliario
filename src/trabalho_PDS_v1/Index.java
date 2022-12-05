@@ -6,6 +6,7 @@ import jogadores.JogadoresAgregacaoView;
 import casa.CasaAgregacao;
 import casa.CasaImpostos;
 import casa.CasaLucros;
+import casa.CasaPropriedade;
 
 public class Index {
 	public static void main(String[] args) {
@@ -20,11 +21,12 @@ public class Index {
             teste.prepararJogo();
 			teste.adicionarJogador();
 			teste.adicionarJogador();
-			casas.addCasa(new CasaLucros());
-			casas.addCasa(new CasaImpostos());
-			
-			casas.executaAcao(0, teste.retornaJogador("1"));
-			casas.executaAcao(1, teste.retornaJogador("2"));
+			casas.addCasa(new CasaLucros(200));
+			casas.addCasa(new CasaImpostos(200));
+			casas.addCasa(new CasaPropriedade("Casa da mãe joana", 200, 20));
+
+			casas.executaAcao(2, teste.retronaControllerJogador(), "1");
+			casas.executaAcao(2, teste.retronaControllerJogador(), "2");
 			
 			teste.verJogadores();
 	    } catch (Exception e) {
