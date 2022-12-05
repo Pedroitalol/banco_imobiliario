@@ -1,5 +1,7 @@
 package casa;
 
+import jogadores.JogadorModel;
+
 public interface ICasa {
-	public void executaAcao();
+	public void executaAcao(JogadorModel jogadorAtual);
 }

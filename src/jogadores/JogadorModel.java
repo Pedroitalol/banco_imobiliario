@@ -31,4 +31,20 @@ public class JogadorModel {
 			this.localNoTabuleiro = this.localNoTabuleiro + numCasas;
 		}
 	}
+
+	public int retornarDinheiro(){
+		return this.quantidadeDinheiro;
+	}
+
+	public void adicionarDinheiro(int quantidadeAdicional){
+		this.quantidadeDinheiro += quantidadeAdicional;
+	}
+
+	public void debitarDinheiro(int quantidadeDebido){
+		if(this.quantidadeDinheiro <= quantidadeDebido){
+			throw new IllegalArgumentException("O jogador não tem dinheiro o bastante para esse débito!");
+		}else{
+			this.quantidadeDinheiro -= quantidadeDebido;
+		}
+	}
 }

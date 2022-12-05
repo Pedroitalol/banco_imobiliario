@@ -20,38 +20,38 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		if(this.jogadorInicial != -1) {
 			this.interadorJogadores = new IteradorJogadores(this.quantidadeJogadores, this.listaJogadores, this.jogadorInicial);
 		}else {
-			throw new IllegalArgumentException("O jogador inicial não foi escolhido");
+			throw new IllegalArgumentException("O jogador inicial nï¿½o foi escolhido");
 		}
 	}
 	
-	// tem que ser de 0 até numero de jogadores
+	// tem que ser de 0 atï¿½ numero de jogadores
 	public void definirJogadorInicial(int jogadorInicial) {
 		this.jogadorInicial = jogadorInicial;
 	}
 	
 	public boolean adicionarJogador(int quantidadeInicial, String peca) {
-		// se interador já criado, não pode mudar os jogadores
+		// se interador jï¿½ criado, nï¿½o pode mudar os jogadores
 		if(this.interadorJogadores != null) {
-			throw new IllegalArgumentException("Jogo já iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
+			throw new IllegalArgumentException("Jogo jï¿½ iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
 		}
 		if(this.quantidadeJogadores < 6) {
 			for (JogadorModel jogadorModel : this.listaJogadores) {
 				if(jogadorModel.retornaPecaDoJogador().equals(peca)) {
-					throw new IllegalArgumentException("Algum jogador já escolheu essa peça!");
+					throw new IllegalArgumentException("Algum jogador jï¿½ escolheu essa peï¿½a!");
 				}
 			}
 			this.listaJogadores.add(new JogadorModel(quantidadeInicial, peca));
 			this.quantidadeJogadores++;
 			return true;
 		}else {
-			throw new IllegalArgumentException("Quantidade máxima de jogadores atingida!");
+			throw new IllegalArgumentException("Quantidade mï¿½xima de jogadores atingida!");
 		}
 	}
 	
 	public boolean removerJogador(String peca) {
-		// se interador já criado, não pode mudar os jogadores
+		// se interador jï¿½ criado, nï¿½o pode mudar os jogadores
 		if(this.interadorJogadores != null) {
-			throw new IllegalArgumentException("Jogo já iniciado, se quiser remover um jogador, reinicie o jogo!");
+			throw new IllegalArgumentException("Jogo jï¿½ iniciado, se quiser remover um jogador, reinicie o jogo!");
 		}
 		
 		if(this.quantidadeJogadores > 1) {
@@ -64,7 +64,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 	            	return true;
 	            }
 	        }
-	        throw new IllegalArgumentException("Jogador não encontrado!");
+	        throw new IllegalArgumentException("Jogador nï¿½o encontrado!");
 		}else {
 			throw new IllegalArgumentException("Sem jogadores no jogo atual!");
 		}
@@ -76,7 +76,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		}
 		String temp = "";
 		for (JogadorModel jogadorModel : this.listaJogadores) {
-			temp += "Jogador de peça " + jogadorModel.retornaPecaDoJogador() + "\n";
+			temp += "Jogador de peï¿½a " + jogadorModel.retornaPecaDoJogador() + "\n";
 		}
 		return temp;
 	}
@@ -91,8 +91,17 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 			
 		}
 		for (JogadorModel jogadorModel : this.listaJogadores) {
-			temp += "Jogador de peça " + jogadorModel.retornaPecaDoJogador() + "\n";
+			temp += "Jogador de peï¿½a " + jogadorModel.retornaPecaDoJogador() + "\n";
 		}
 		return temp;
+	}
+
+	public JogadorModel retornaJogadro(String peca){
+		for (JogadorModel jogadorModel : listaJogadores) {
+			if(jogadorModel.retornaPecaDoJogador() == peca){
+				return jogadorModel;
+			}
+		}
+		throw new IllegalArgumentException("Jogador nÃ£o encontrado!");
 	}
 }

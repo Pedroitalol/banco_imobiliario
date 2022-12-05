@@ -1,7 +1,9 @@
 package casa;
 
+import jogadores.JogadorModel;
+
 public class CasaImpostos implements ICasa{
-	public void executaAcao() {
-		// jogador perde 200 reais
+	public void executaAcao(JogadorModel jogadorAtual) {
+		jogadorAtual.debitarDinheiro(200);
 	}
 }

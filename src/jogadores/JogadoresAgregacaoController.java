@@ -21,5 +21,9 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 		return this.jogadores.verJogadores();
 	}
 
+	public JogadorModel retornaJogadro(String peca) {
+		return this.jogadores.retornaJogadro(peca);
+	}
+
 	
 }

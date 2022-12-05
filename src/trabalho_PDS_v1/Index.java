@@ -3,6 +3,9 @@ package trabalho_PDS_v1;
 
 import dado.DadoView;
 import jogadores.JogadoresAgregacaoView;
+import casa.CasaAgregacao;
+import casa.CasaImpostos;
+import casa.CasaLucros;
 
 public class Index {
 	public static void main(String[] args) {
@@ -10,31 +13,19 @@ public class Index {
 		
 		dadoView.jogaDados();
 		
-		
 		try {
 			JogadoresAgregacaoView teste = new JogadoresAgregacaoView();
-			teste.prepararJogo();
+			CasaAgregacao casas = new CasaAgregacao();
 			teste.adicionarJogador();
 			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.adicionarJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.removerJogador();
-			teste.verJogadores();
+			casas.addCasa(new CasaLucros());
+			casas.addCasa(new CasaImpostos());
+			
+			casas.executaAcao(0, teste.retornaJogador("1"));
+			casas.executaAcao(1, teste.retornaJogador("2"));
 			
 	    } catch (Exception e) {
-	      System.out.println(e.getMessage());
+	      	System.out.println(e.getMessage());
 	    }
-		
 	}
 }
