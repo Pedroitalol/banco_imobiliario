@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_av9dejulho_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avbfarialima_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avbrasil_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_aveuropa_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avnsdecopacabana_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avpacaembu_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avpaulista_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avpresidente_vargas_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_avreboucas_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_botafogo_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_flamengo_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_interlagos_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_leblon_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_morumbi_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/casa_rua_augusta_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/imposto_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/lucros_dividendos_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/parada_livre_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/ponto_partida_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/prisao_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/sorte_reves_imgb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/va_para_prisao_imgb.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioAplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioAplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/Sorte_Reves_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/imposto_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/lucros_dividendos_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/parada_livre_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/ponto_partida_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/prisao_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/img/va_para_a_prisao_img.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/img/Sorte_Reves_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/img/imposto_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/img/parada_livre_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/img/ponto_partida_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/img/prisao_img.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +128,7 @@
       <workItem from="1670159012491" duration="8477000" />
       <workItem from="1670246358233" duration="8943000" />
       <workItem from="1670283025719" duration="2304000" />
-      <workItem from="1670355324450" duration="6977000" />
+      <workItem from="1670355324450" duration="9546000" />
     </task>
     <servers />
   </component>

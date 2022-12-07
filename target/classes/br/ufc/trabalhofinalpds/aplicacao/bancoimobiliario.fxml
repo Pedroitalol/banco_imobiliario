@@ -43,7 +43,14 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane id="7" prefWidth="68.439" style="-fx-background-color: blue;" />
+                     <Pane id="7" prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/companhia_de_viacao_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                      <Pane id="6" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
@@ -53,7 +60,14 @@
                            </ImageView>
                         </children>
                      </Pane>
-                     <Pane id="5" prefWidth="68.439" style="-fx-background-color: blue;" />
+                     <Pane id="5" prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="70.0">
+                              <image>
+                                 <Image url="@img/companhia_ferroviaria_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                      <Pane id="4" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="71.0">
@@ -101,7 +115,7 @@
             <top>
                <HBox fx:id="tabuleirocima" prefHeight="69.817" style="-fx-background-color: pink;" BorderPane.alignment="CENTER">
                   <children>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="20" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="71.0" fitWidth="70.0">
                               <image>
@@ -109,7 +123,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="21" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -117,7 +131,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="22" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="71.0">
                               <image>
@@ -126,7 +140,7 @@
                            </ImageView>
                         </children>
                      </Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="23" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -134,7 +148,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="24" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -142,8 +156,15 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="25" prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="70.0">
+                              <image>
+                                 <Image url="@img/companhia_de_navegacao_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="26" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -151,7 +172,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="27" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -159,9 +180,23 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;" />
-                     <Pane prefWidth="68.439" style="-fx-background-color: blue;">
+                     <Pane id="28" prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="70.0">
+                              <image>
+                                 <Image url="@img/casa_avpaulista_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="29" prefWidth="68.439" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="70.0">
+                              <image>
+                                 <Image url="@img/casa_jardim_europa_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="30" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="69.0">
                               <image>
@@ -175,7 +210,7 @@
             <left>
                <VBox fx:id="tabuleiroesquerda" prefWidth="68.439" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
                   <children>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="19" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -183,7 +218,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="18" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="69.0">
                               <image>
@@ -191,7 +226,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="17" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="71.0" fitWidth="70.0">
                               <image>
@@ -199,7 +234,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="16" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="71.0" fitWidth="69.0">
                               <image>
@@ -207,8 +242,15 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="15" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/companhia_de_taxi_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="14" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -216,7 +258,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="13" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -224,7 +266,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="12" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="71.0" fitWidth="69.0">
                               <image>
@@ -232,7 +274,7 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="11" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="70.0" fitWidth="70.0">
                               <image>
@@ -246,13 +288,55 @@
             <right>
                <VBox fx:id="tabuleirodireita" prefWidth="68.439" style="-fx-background-color: red;" BorderPane.alignment="CENTER">
                   <children>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;">
+                     <Pane id="31" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_copacabana_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="32" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/companhia_de_aviacao_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="33" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_avvieira_souto_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="34" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_avatlantica_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="35" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/companhia_taxi_aereo_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="36" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_ipanema_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="37" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
                            <ImageView fitHeight="71.0" fitWidth="69.0">
                               <image>
@@ -260,13 +344,27 @@
                               </image>
                            </ImageView>
                         </children></Pane>
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
-                     <Pane prefHeight="69.817" style="-fx-background-color: blue;" />
+                     <Pane id="38" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_jardim_paulista_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
+                     <Pane id="39" prefHeight="69.817" style="-fx-background-color: blue;">
+                        <children>
+                           <ImageView fitHeight="70.0" fitWidth="69.0">
+                              <image>
+                                 <Image url="@img/casa_brooklin_imgb.jpg" />
+                              </image>
+                           </ImageView>
+                        </children></Pane>
                   </children>
                </VBox>
             </right>
             <center>
-               <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <AnchorPane fx:id="centroTab" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #212184; -fx-border-radius: 6;" visible="false" BorderPane.alignment="CENTER">
                   <children>
                      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <top>
@@ -282,7 +380,16 @@
                            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
                         </right>
                         <center>
-                           <ImageView fx:id="cartaview" fitHeight="304.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+                           <AnchorPane maxHeight="324.0" maxWidth="300.0" prefHeight="324.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+                              <children>
+                                 <ImageView fx:id="casaview" fitHeight="304.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 <Label alignment="CENTER" text="Dono: Nenhum(a)" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                    <font>
+                                       <Font name="System Bold" size="12.0" />
+                                    </font>
+                                 </Label>
+                              </children>
+                           </AnchorPane>
                         </center>
                      </BorderPane>
                   </children>
