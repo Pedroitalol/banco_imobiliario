@@ -14,6 +14,7 @@ public class BancoImobiliarioAplicacao extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 752.84, 768);
         stage.setTitle("Banco Imobilariadasso");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
