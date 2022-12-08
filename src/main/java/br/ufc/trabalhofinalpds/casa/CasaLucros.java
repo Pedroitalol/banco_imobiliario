@@ -1,9 +1,15 @@
 package br.ufc.trabalhofinalpds.casa;
 
-public class CasaLucros implements ICasa{
+import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 
-	public void executaAcao() {
-		// jogador recebe 200 reais
-	}
+public class CasaLucros implements ICasa{
+	int valorAdicional;
 	
+	public CasaLucros(int valorAdicional){
+		this.valorAdicional = valorAdicional;
+	}
+
+	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual) {
+		jogadores.retornaJogador(pecaJogadorAtual).adicionarDinheiro(this.valorAdicional);
+	}
 }

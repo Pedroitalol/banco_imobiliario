@@ -39,9 +39,16 @@ public class JogadoresAgregacaoView {
 		try {
 			System.out.println(this.jogadorController.verJogadores());
 		} catch (Exception e) {
-			System.out.println("Não foi possível visualizar ufc.pds.trabalhofinal.jogadores, pois: " + e.getMessage());
+			System.out.println("Não foi possível visualizar jogadores, pois: " + e.getMessage());
 		}
 	}
+
+	public JogadorModel retornaJogador(String peca){
+		return this.jogadorController.retornaJogador(peca);
+	}
 	
+	public IJogadoresAgregacaoController retronaControllerJogador() {
+		return this.jogadorController;
+	}
 	
 }

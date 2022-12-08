@@ -20,38 +20,38 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		if(this.jogadorInicial != -1) {
 			this.interadorJogadores = new IteradorJogadores(this.quantidadeJogadores, this.listaJogadores, this.jogadorInicial);
 		}else {
-			throw new IllegalArgumentException("O jogador inicial n�o foi escolhido");
+			throw new IllegalArgumentException("O jogador inicial não foi escolhido");
 		}
 	}
 	
-	// tem que ser de 0 at� numero de ufc.pds.trabalhofinal.jogadores
+	// tem que ser de 0 até numero de jogadores
 	public void definirJogadorInicial(int jogadorInicial) {
 		this.jogadorInicial = jogadorInicial;
 	}
 	
 	public boolean adicionarJogador(int quantidadeInicial, String peca) {
-		// se interador j� criado, n�o pode mudar os ufc.pds.trabalhofinal.jogadores
+		// se interador já criado, não pode mudar os jogadores
 		if(this.interadorJogadores != null) {
-			throw new IllegalArgumentException("Jogo j� iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
+			throw new IllegalArgumentException("Jogo já iniciado, se quiser adicionar novo jogador, reinicie o jogo!");
 		}
 		if(this.quantidadeJogadores < 6) {
 			for (JogadorModel jogadorModel : this.listaJogadores) {
 				if(jogadorModel.retornaPecaDoJogador().equals(peca)) {
-					throw new IllegalArgumentException("Algum jogador j� escolheu essa pe�a!");
+					throw new IllegalArgumentException("Algum jogador já escolheu essa peça!");
 				}
 			}
 			this.listaJogadores.add(new JogadorModel(quantidadeInicial, peca));
 			this.quantidadeJogadores++;
 			return true;
 		}else {
-			throw new IllegalArgumentException("Quantidade m�xima de ufc.pds.trabalhofinal.jogadores atingida!");
+			throw new IllegalArgumentException("Quantidade máxima de jogadores atingida!");
 		}
 	}
 	
 	public boolean removerJogador(String peca) {
-		// se interador j� criado, n�o pode mudar os ufc.pds.trabalhofinal.jogadores
+		// se interador já criado, não pode mudar os jogadores
 		if(this.interadorJogadores != null) {
-			throw new IllegalArgumentException("Jogo j� iniciado, se quiser remover um jogador, reinicie o jogo!");
+			throw new IllegalArgumentException("Jogo já iniciado, se quiser remover um jogador, reinicie o jogo!");
 		}
 		
 		if(this.quantidadeJogadores > 1) {
@@ -64,7 +64,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 	            	return true;
 	            }
 	        }
-	        throw new IllegalArgumentException("Jogador n�o encontrado!");
+	        throw new IllegalArgumentException("Jogador não encontrado!");
 		}else {
 			throw new IllegalArgumentException("Sem ufc.pds.trabalhofinal.jogadores no jogo atual!");
 		}
@@ -76,7 +76,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		}
 		String temp = "";
 		for (JogadorModel jogadorModel : this.listaJogadores) {
-			temp += "Jogador de pe�a " + jogadorModel.retornaPecaDoJogador() + "\n";
+			temp += "Jogador de peça " + jogadorModel.retornaPecaDoJogador() + " tem " + jogadorModel.retornaQuantidadeDinheiroJogador() + "\n";
 		}
 		return temp;
 	}
@@ -91,8 +91,27 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 			
 		}
 		for (JogadorModel jogadorModel : this.listaJogadores) {
-			temp += "Jogador de pe�a " + jogadorModel.retornaPecaDoJogador() + "\n";
+			temp += "Jogador de peça " + jogadorModel.retornaPecaDoJogador() + "\n";
 		}
 		return temp;
+	}
+
+	public JogadorModel retornaJogadro(String peca){
+		for (JogadorModel jogadorModel : listaJogadores) {
+			if(jogadorModel.retornaPecaDoJogador().equals(peca)){
+				return jogadorModel;
+			}
+		}
+		throw new IllegalArgumentException("Jogador não encontrado!");
+	}
+
+	public String[] retornaNomesPecas(){
+		String[] ret = new String[this.quantidadeJogadores];
+		int i = 0;
+		for (JogadorModel jogadorModel : listaJogadores) {
+			ret[i] = jogadorModel.retornaPecaDoJogador();
+			i++;
+		}
+		return ret;
 	}
 }
