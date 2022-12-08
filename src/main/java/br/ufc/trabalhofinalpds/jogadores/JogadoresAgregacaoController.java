@@ -3,7 +3,7 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.ArrayList;
 
 public class JogadoresAgregacaoController implements IJogadoresAgregacaoController{
-	private IJogadoresAgragacao jogadores;
+	private IJogadoresAgregacao jogadores;
 	
 	public JogadoresAgregacaoController() {
 		this.jogadores = new JogadoresAgregacao(0, new ArrayList<JogadorModel>());

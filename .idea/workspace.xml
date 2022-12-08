@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cartas/CartasSorte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casa/CasaSorte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/cartas/CartasSorte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/cartas/CartasSorte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaLucros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaLucros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaPropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaSorte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaSorte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/dado/DadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/dado/DadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgragacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgragacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IteradorJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IteradorJogadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgragacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/aaa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgragacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgregacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +134,7 @@
       <workItem from="1670246358233" duration="8943000" />
       <workItem from="1670283025719" duration="2304000" />
       <workItem from="1670355324450" duration="9992000" />
-      <workItem from="1670509857052" duration="5153000" />
+      <workItem from="1670509857052" duration="7506000" />
     </task>
     <servers />
   </component>

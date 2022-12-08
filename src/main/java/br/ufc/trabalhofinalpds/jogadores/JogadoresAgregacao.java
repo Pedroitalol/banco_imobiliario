@@ -3,7 +3,7 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgragacao{
+public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgregacao {
 	private IIteradorJogadores interadorJogadores;
 	private ArrayList<JogadorModel> listaJogadores;
 	private int quantidadeJogadores;
