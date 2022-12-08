@@ -3,10 +3,10 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.ArrayList;
 
 public class IteradorJogadores implements IIteradorJogadores{
-	int quantidadeJogadores;
-	ArrayList<JogadorModel> listaJogadores;
-	int jogadorInicial;
-	int interador;
+	private int quantidadeJogadores;
+	private ArrayList<JogadorModel> listaJogadores;
+	private int jogadorInicial;
+	private int interador;
 
 	public IteradorJogadores(int quantidadeJogadores, ArrayList<JogadorModel> listaJogadores, int jogadorInicial) {
 		this.quantidadeJogadores = quantidadeJogadores;

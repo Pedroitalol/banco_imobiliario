@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="768.0" maxWidth="752.84" minHeight="768.0" minWidth="752.84" prefHeight="768.0" prefWidth="752.84" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufc.trabalhofinalpds.aplicacao.BancoImobiliarioControlador">
+<AnchorPane maxHeight="768.0" maxWidth="752.84" minHeight="768.0" minWidth="752.84" prefHeight="768.0" prefWidth="752.84" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufc.trabalhofinalpds.aplicacao.BancoImobiliarioView">
    <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9da7fb;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
       <children>
          <BorderPane layoutX="334.0" layoutY="105.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
