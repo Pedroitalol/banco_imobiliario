@@ -12,7 +12,7 @@ public class DadoController implements IDadoController{
 	public String jogaDados() {
 		int valorDado1 = this.dado1.jogarDado();
 		int valorDado2 = this.dado2.jogarDado();
-		return "Valor do ufc.pds.trabalhofinal.dado 1 = " + valorDado1 + "\nValor do ufc.pds.trabalhofinal.dado 2 = " + valorDado2;
+		return "Valor do dado 1 = " + valorDado1 + "\nValor do dado 2 = " + valorDado2;
 	}
 	
 	public int[] retornaValorDados() {

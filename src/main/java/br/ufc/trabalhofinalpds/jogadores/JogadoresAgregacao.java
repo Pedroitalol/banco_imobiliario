@@ -3,13 +3,13 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgragacao{
-	public IIteradorJogadores interadorJogadores;
-	ArrayList<JogadorModel> listaJogadores;
-	int quantidadeJogadores;
-	int jogadorInicial;
+public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgragacao{
+	private IIteradorJogadores interadorJogadores;
+	private ArrayList<JogadorModel> listaJogadores;
+	private int quantidadeJogadores;
+	private int jogadorInicial;
 	
-	public JogadoresAgragacao(int quantidadeJogadores, ArrayList<JogadorModel> listaJogadores) {
+	public JogadoresAgregacao(int quantidadeJogadores, ArrayList<JogadorModel> listaJogadores) {
 		this.quantidadeJogadores = quantidadeJogadores;
 		this.listaJogadores = listaJogadores;
 		this.jogadorInicial = -1;
@@ -66,13 +66,13 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 	        }
 	        throw new IllegalArgumentException("Jogador não encontrado!");
 		}else {
-			throw new IllegalArgumentException("Sem ufc.pds.trabalhofinal.jogadores no jogo atual!");
+			throw new IllegalArgumentException("Sem jogadores no jogo atual!");
 		}
 	}
 	
 	public String verJogadores() {
 		if(this.quantidadeJogadores <= 0) {
-			throw new IllegalArgumentException("Sem ufc.pds.trabalhofinal.jogadores no jogo atual!");
+			throw new IllegalArgumentException("Sem jogadores no jogo atual!");
 		}
 		String temp = "";
 		for (JogadorModel jogadorModel : this.listaJogadores) {
@@ -81,10 +81,9 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		return temp;
 	}
 	
-	// TODO: 
 	public String verJogadoresDuranteJogo() {
 		if(this.quantidadeJogadores <= 0) {
-			throw new IllegalArgumentException("Sem ufc.pds.trabalhofinal.jogadores no jogo atual!");
+			throw new IllegalArgumentException("Sem jogadores no jogo atual!");
 		}
 		String temp = "";
 		for(int i = 0; i < this.quantidadeJogadores; i++) {
@@ -96,7 +95,7 @@ public class JogadoresAgragacao implements IAgregadorJogadores, IJogadoresAgraga
 		return temp;
 	}
 
-	public JogadorModel retornaJogadro(String peca){
+	public JogadorModel retornaJogador(String peca){
 		for (JogadorModel jogadorModel : listaJogadores) {
 			if(jogadorModel.retornaPecaDoJogador().equals(peca)){
 				return jogadorModel;

@@ -3,7 +3,7 @@ package br.ufc.trabalhofinalpds.casa;
 import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 
 public class CasaImpostos implements ICasa{
-	int valorImposto;
+	private int valorImposto;
 	public CasaImpostos(int valorImposto){
 		this.valorImposto = valorImposto;
 	}

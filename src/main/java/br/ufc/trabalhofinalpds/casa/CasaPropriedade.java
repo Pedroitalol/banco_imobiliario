@@ -5,11 +5,11 @@ import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 import java.util.Scanner;
 
 public class CasaPropriedade implements ICasa{
-	String nomePropriedade;
-	int valorPropriedade;
-	int valorAluguel;
-	JogadorModel donoDaPropriedade;
-	Scanner terminal;
+	private String nomePropriedade;
+	private int valorPropriedade;
+	private int valorAluguel;
+	private JogadorModel donoDaPropriedade;
+	private Scanner terminal;
 
 	public CasaPropriedade(String nome, int valorPropriedade, int valorAluguel) {
 		this.nomePropriedade = nome;

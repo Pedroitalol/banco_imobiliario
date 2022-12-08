@@ -6,7 +6,7 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 	private IJogadoresAgragacao jogadores;
 	
 	public JogadoresAgregacaoController() {
-		this.jogadores = new JogadoresAgragacao(0, new ArrayList<JogadorModel>());
+		this.jogadores = new JogadoresAgregacao(0, new ArrayList<JogadorModel>());
 	}
 	
 	public void adicionarJogador(String peca) {
@@ -22,7 +22,7 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 	}
 
 	public JogadorModel retornaJogador(String peca) {
-		return this.jogadores.retornaJogadro(peca);
+		return this.jogadores.retornaJogador(peca);
 	}
 
 	public String[] retornaNomesPecas(){
