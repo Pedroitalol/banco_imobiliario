@@ -1,9 +1,9 @@
 package br.ufc.trabalhofinalpds.casa;
 
-import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
+import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 
 public class CasaPassaVez implements ICasa{
-	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual) {
+	public void executaAcao(JogadorModel jogadorAtual) {
 		// não acontece nada
 	}
 }

@@ -2,10 +2,7 @@ package br.ufc.trabalhofinalpds.aplicacao;
 
 import br.ufc.trabalhofinalpds.dado.DadoView;
 import br.ufc.trabalhofinalpds.jogadores.JogadoresAgregacaoView;
-import br.ufc.trabalhofinalpds.casa.CasaAgregacao;
-import br.ufc.trabalhofinalpds.casa.CasaImpostos;
-import br.ufc.trabalhofinalpds.casa.CasaLucros;
-import br.ufc.trabalhofinalpds.casa.CasaPropriedade;
+// import br.ufc.trabalhofinalpds.casa.*;
 
 public class Index {
 	public static void main(String[] args) {
@@ -15,18 +12,27 @@ public class Index {
 
 		try {
 			JogadoresAgregacaoView teste = new JogadoresAgregacaoView();
-			CasaAgregacao casas = new CasaAgregacao();
+			// CasaAgregacao casas = new CasaAgregacao();
 
+			// para fazer dar certo, precisa ser assim:
 			teste.prepararJogo();
 			teste.adicionarJogador();
 			teste.adicionarJogador();
-			casas.addCasa(new CasaLucros(200));
-			casas.addCasa(new CasaImpostos(200));
-			casas.addCasa(new CasaPropriedade("Casa da mãe joana", 200, 20));
+			teste.adicionarJogador();
+			teste.adicionarJogador();
+			teste.iniciaJogo();
 
-			casas.executaAcao(2, teste.retronaControllerJogador(), "1");
-			casas.executaAcao(2, teste.retronaControllerJogador(), "2");
+			// casas.addCasa(new CasaLucros(200));
+			// casas.addCasa(new CasaImpostos(200));
+			// casas.addCasa(new CasaPropriedade("Casa da mãe joana", 200, 20));
 
+			// casas.executaAcao(2, teste.retornaJogadorAtual());
+			// casas.executaAcao(2, teste.retornaJogadorAtual());
+
+			for(int i = 0; i < 10; i++){
+				teste.avancaJogadores();
+				teste.imprimeDadosJogadorAtual();
+			}
 			teste.verJogadores();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

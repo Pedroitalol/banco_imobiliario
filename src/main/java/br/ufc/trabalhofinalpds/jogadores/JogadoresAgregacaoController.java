@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class JogadoresAgregacaoController implements IJogadoresAgregacaoController{
 	private IJogadoresAgregacao jogadores;
+	private IIteradorJogadores iterador;
 	
 	public JogadoresAgregacaoController() {
 		this.jogadores = new JogadoresAgregacao(0, new ArrayList<JogadorModel>());
@@ -30,5 +31,24 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 		return ret;
 	}
 
+	public JogadorModel retornaJogadorAtual(){
+		return this.jogadores.retornaJogadorAtual();
+	}
+
+	public JogadorModel avancaJogadores(){
+		return this.iterador.proximoJogador();
+	}
+
+	public boolean retornaSePodeIniciarJogo(){
+		System.out.println("hegou aqui");
+		return this.jogadores.retornaSePodeIniciarJogo();
+	}
+
+	public void criarIterador(){
+		this.iterador = this.jogadores.criarIterador();
+	}
 	
+	public void definirJogadorInicial(JogadorModel jogador){
+		this.jogadores.definirJogadorInicial(jogador);
+	}
 }

@@ -13,6 +13,17 @@ public class JogadoresAgregacaoView {
 		this.jogadorController = new JogadoresAgregacaoController();
 		System.out.println("Preparação de novo jogo iniciada com sucesso");
 	}
+
+	public void iniciaJogo() {
+		if(this.jogadorController.retornaSePodeIniciarJogo()){
+			this.jogadorController.criarIterador();
+			// TODO aonde tem que ser feito
+			this.jogadorController.definirJogadorInicial(null);
+			System.out.println("Jogo iniciado com sucesso!");
+		}else{
+			System.out.println("Algo impediu a criação do jogo, numero de jogadores invalido!");
+		}
+	}
 	
 	public void adicionarJogador() {
 		System.out.println("Por favor, adicionar nome da peça do jogador");
@@ -50,5 +61,18 @@ public class JogadoresAgregacaoView {
 	public IJogadoresAgregacaoController retronaControllerJogador() {
 		return this.jogadorController;
 	}
+
+	public JogadorModel retornaJogadorAtual(){
+		return this.jogadorController.retornaJogadorAtual();
+	}
+
+	public void imprimeDadosJogadorAtual(){
+		JogadorModel jogadorAtual = this.jogadorController.retornaJogadorAtual();
+		System.out.println("Jogador atual tem a peça " + jogadorAtual.retornaPecaDoJogador() + " e tem " + jogadorAtual.retornaQuantidadeDinheiroJogador() + " de dinheiro!");
+		System.out.println();
+	}
 	
+	public void avancaJogadores(){
+		this.jogadorController.avancaJogadores();
+	}
 }

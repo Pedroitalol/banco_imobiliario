@@ -10,6 +10,7 @@ public class CasaPropriedade implements ICasa{
 	private int valorAluguel;
 	private JogadorModel donoDaPropriedade;
 	private Scanner terminal;
+	private CasaView view;
 
 	public CasaPropriedade(String nome, int valorPropriedade, int valorAluguel) {
 		this.nomePropriedade = nome;
@@ -19,21 +20,16 @@ public class CasaPropriedade implements ICasa{
 		this.terminal = new Scanner(System.in);
 	}
 
-	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual) {
+	public void executaAcao(JogadorModel jogadorAtual) {
 		// ou paga aluguel para o dono, ou pode comprar essa propriedade
-		JogadorModel jogadorAtual = jogadores.retornaJogador(pecaJogadorAtual);
 		if(this.donoDaPropriedade == null){
 			// pergunta se quer comprar
-			System.out.println("Deseja comprar essa propriedade? s/n");
-			String peca = this.terminal.nextLine();
-			if(peca.equals("s")){
+			boolean resposta = this.view.perguntaSeQuerComprar();			
+			if(resposta){
 				jogadorAtual.debitarDinheiro(valorPropriedade);
 				this.donoDaPropriedade = jogadorAtual;
-			}else if(peca.equals("n")){
-				// passa a vez sem fazer nada
 			}else{
-				// dá erro:
-				throw new IllegalArgumentException("Entrada invalida!");
+				this.view.avisaQuePassouAVez();
 			}
 		}else{
 			// paga aluguel

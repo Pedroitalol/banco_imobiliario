@@ -3,7 +3,7 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgregacao {
+public class JogadoresAgregacao implements IJogadoresAgregacao {
 	private IIteradorJogadores interadorJogadores;
 	private ArrayList<JogadorModel> listaJogadores;
 	private int quantidadeJogadores;
@@ -16,17 +16,18 @@ public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgrega
 		this.interadorJogadores = null;
 	}
 
-	public void criarInterador() {
-		if(this.jogadorInicial != -1) {
+	public IIteradorJogadores criarIterador() {
+		if(this.retornaSePodeIniciarJogo()) {
 			this.interadorJogadores = new IteradorJogadores(this.quantidadeJogadores, this.listaJogadores, this.jogadorInicial);
+			return this.interadorJogadores;
 		}else {
-			throw new IllegalArgumentException("O jogador inicial não foi escolhido");
+			throw new IllegalArgumentException("O jogo não pode ser iniciado");
 		}
 	}
 	
 	// tem que ser de 0 até numero de jogadores
-	public void definirJogadorInicial(int jogadorInicial) {
-		this.jogadorInicial = jogadorInicial;
+	public void definirJogadorInicial(JogadorModel jogador) {
+		this.jogadorInicial = this.listaJogadores.indexOf(jogador);
 	}
 	
 	public boolean adicionarJogador(int quantidadeInicial, String peca) {
@@ -112,5 +113,18 @@ public class JogadoresAgregacao implements IAgregadorJogadores, IJogadoresAgrega
 			i++;
 		}
 		return ret;
+	}
+
+	public JogadorModel retornaJogadorAtual(){
+		return this.interadorJogadores.jogadorAtual();
+	}
+
+	public boolean retornaSePodeIniciarJogo(){
+		System.out.println(this.jogadorInicial + " " + this.quantidadeJogadores);
+		if(this.jogadorInicial != -1 || this.quantidadeJogadores < 2 || this.quantidadeJogadores > 6) {
+			return true;
+		}else {
+			return false;
+		}
 	}
 }
