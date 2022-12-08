@@ -1,7 +1,8 @@
 package br.ufc.trabalhofinalpds.cartas;
 
-public interface ICartasSorte {
-    public void receba();
+import br.ufc.trabalhofinalpds.jogadores.IIteradorJogadores;
+import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 
-    public void pague();
+public interface ICartasSorte {
+    public void efeitoEspecial(IJogadoresAgregacaoController jogador, String pecaJogadorAtual);
 }
