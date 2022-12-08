@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/aaa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgragacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/IJogadoresAgregacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +47,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ljoao/Documents/UFC/PDS/Trab Final/banco_imobiliario/src/main/resources/br.ufc.trabalhofinalpds.application",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ljoao/Documents/UFC/PDS/Trab Final/banco_imobiliario/src/main/resources/br.ufc.trabalhofinalpds.application&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ljoao\Documents\UFC\PDS\Trab Final\banco_imobiliario\src\main\resources\br.ufc.trabalhofinalpds.application" />
@@ -134,7 +134,7 @@
       <workItem from="1670246358233" duration="8943000" />
       <workItem from="1670283025719" duration="2304000" />
       <workItem from="1670355324450" duration="9992000" />
-      <workItem from="1670509857052" duration="7506000" />
+      <workItem from="1670509857052" duration="9179000" />
     </task>
     <servers />
   </component>
