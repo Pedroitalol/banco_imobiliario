@@ -10,8 +10,8 @@ import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 public class CasaSorte implements ICasa{
 	ICartasSorte cartaSortReves = new CartasSorte();
 
-	public void executaAcao(IJogadoresAgregacaoController jogadores, String pecaJogadorAtual) {
-		cartaSortReves.efeitoEspecial(jogadores, pecaJogadorAtual);
+	public void executaAcao(JogadorModel jogadorAtual) {
+		cartaSortReves.efeitoEspecial(jogadorAtual);
 
 	}
 }
