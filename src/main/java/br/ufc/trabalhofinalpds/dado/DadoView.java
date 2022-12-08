@@ -6,8 +6,8 @@ public class DadoView {
 	public DadoView() {
 		this.dadoController = new DadoController();
 	}
-	
-	public void jogaDados(){
+
+	public void jogaDados() {
 		System.out.println(this.dadoController.jogaDados());
 	}
 }
