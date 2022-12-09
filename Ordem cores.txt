@@ -1,0 +1,6 @@
+Verde
+Vermelho
+Amarelo
+Azul
+Roxo
+Laranja
