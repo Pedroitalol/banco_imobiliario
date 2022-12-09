@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/Tabuleiro/TabuleiroPadrao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/IFactoryBI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/ITabuleiroType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/FactoryBI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/FactoryBI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/IBancoIMtype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiagramaBM.asta" beforeDir="false" afterPath="$PROJECT_DIR$/DiagramaBM.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/Tabuleiro/TabuleiroPadrao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/Tabuleiro/TabuleiroPadrao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/ITabuleiroType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/ITabuleiroType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,8 @@
       <workItem from="1670509857052" duration="9179000" />
       <workItem from="1670529814543" duration="265000" />
       <workItem from="1670530093348" duration="10675000" />
-      <workItem from="1670552040834" duration="2827000" />
+      <workItem from="1670552040834" duration="2880000" />
+      <workItem from="1670620089773" duration="7201000" />
     </task>
     <servers />
   </component>
