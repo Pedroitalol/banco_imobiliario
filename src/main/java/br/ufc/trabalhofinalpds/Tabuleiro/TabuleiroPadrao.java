@@ -62,10 +62,6 @@ public class TabuleiroPadrao implements ITabuleiroType {
         this.casas.executaAcao(numeroCasa, jogadroAtual);
     }
 
-    public int umTabuleiroQualquer() {
-        return 1;
-    }
-
     public int retornaTamanho(){
         return this.tamanho;
     }
