@@ -1,4 +1,5 @@
 package br.ufc.trabalhofinalpds.jogadores;
+import br.ufc.trabalhofinalpds.dado.DadoController;
 
 public interface IJogadoresAgregacao extends IAgregadorJogadores{
 	public boolean adicionarJogador(int quantidadeInicial, String peca);
@@ -9,4 +10,5 @@ public interface IJogadoresAgregacao extends IAgregadorJogadores{
 	public JogadorModel retornaJogadorAtual();
 	public boolean retornaSePodeIniciarJogo();
 	public void definirJogadorInicial();
+	public DadoController retornaDado();
 }

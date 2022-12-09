@@ -1,6 +1,7 @@
 package br.ufc.trabalhofinalpds.jogadores;
 
 import java.util.Scanner;
+import br.ufc.trabalhofinalpds.dado.DadoController;
 
 public class JogadoresAgregacaoView {
 	private IJogadoresAgregacaoController jogadorController;
@@ -77,5 +78,9 @@ public class JogadoresAgregacaoView {
 
 	public void defineJogadorInicial(){
 		this.jogadorController.definirJogadorInicial();
+	}
+
+	public DadoController retornaDado(){
+		return this.jogadorController.retornaDado();
 	}
 }

@@ -1,6 +1,8 @@
 package br.ufc.trabalhofinalpds.jogadores;
 
-public class JogadorModel {
+import br.ufc.trabalhofinalpds.observer.IObservador;
+
+public class JogadorModel implements IObservador{
 	private int quantidadeDinheiro;
 	private int localNoTabuleiro;
 	private String pecaDoJogo;
@@ -45,6 +47,12 @@ public class JogadorModel {
 			throw new IllegalArgumentException("O jogador não tem dinheiro o bastante para esse débito!");
 		}else{
 			this.quantidadeDinheiro -= quantidadeDebido;
+		}
+	}
+
+	public void atualizaEstado(String pecaAtual){
+		if(pecaAtual.equals(this.pecaDoJogo)){
+			this.quantidadeDinheiro += 200;
 		}
 	}
 }

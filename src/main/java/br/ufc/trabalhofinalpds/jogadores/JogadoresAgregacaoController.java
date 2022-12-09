@@ -1,6 +1,7 @@
 package br.ufc.trabalhofinalpds.jogadores;
 
 import java.util.ArrayList;
+import br.ufc.trabalhofinalpds.dado.DadoController;
 
 public class JogadoresAgregacaoController implements IJogadoresAgregacaoController{
 	private IJogadoresAgregacao jogadores;
@@ -50,5 +51,9 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 	
 	public void definirJogadorInicial(){
 		this.jogadores.definirJogadorInicial();
+	}
+
+	public DadoController retornaDado(){
+		return this.jogadores.retornaDado();
 	}
 }

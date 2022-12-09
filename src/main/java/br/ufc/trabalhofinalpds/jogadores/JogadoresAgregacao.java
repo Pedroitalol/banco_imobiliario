@@ -36,7 +36,7 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 	public void definirJogadorInicial() {
 		int somaMaior = -1, indexJogador = -1;
 		for (JogadorModel jogadorModel : listaJogadores) {
-			viewDado.jogaDados();
+			this.viewDado.jogaDados();
 			int valorSomado = dado.retornaValorSomado();
 			System.out.println(valorSomado) ;
 			if(valorSomado >= somaMaior){
@@ -144,5 +144,9 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 		}else {
 			return false;
 		}
+	}
+
+	public DadoController retornaDado(){
+		return this.dado;
 	}
 }
