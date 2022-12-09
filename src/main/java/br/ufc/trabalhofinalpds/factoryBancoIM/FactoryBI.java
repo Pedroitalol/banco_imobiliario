@@ -1,13 +1,18 @@
 package br.ufc.trabalhofinalpds.factoryBancoIM;
 
-public class FactoryBI {
+import br.ufc.trabalhofinalpds.Tabuleiro.TabuleiroPadrao;
 
-    public static IBancoIMtype createBI(int type){
+public class FactoryBI implements IFactoryBI{
+    //para futuras implementações de novos tipos de tabuleiros.
+
+    public ITabuleiroType createBI(int type){
+        ITabuleiroType tabuleiro;
         if(type == 1){
-            return null;
+            tabuleiro = new TabuleiroPadrao();
         }
         else {
             return null;
         }
+        return tabuleiro;
     }
 }
