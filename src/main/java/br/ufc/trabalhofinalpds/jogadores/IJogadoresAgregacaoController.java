@@ -10,5 +10,5 @@ public interface IJogadoresAgregacaoController {
 	public JogadorModel avancaJogadores();
 	public boolean retornaSePodeIniciarJogo();
 	public void criarIterador();
-	public void definirJogadorInicial(JogadorModel jogador);
+	public void definirJogadorInicial();
 }

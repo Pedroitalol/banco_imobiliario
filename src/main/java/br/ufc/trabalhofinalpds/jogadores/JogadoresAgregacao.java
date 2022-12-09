@@ -2,18 +2,25 @@ package br.ufc.trabalhofinalpds.jogadores;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import br.ufc.trabalhofinalpds.dado.DadoController;
+import br.ufc.trabalhofinalpds.dado.DadoView;
 
 public class JogadoresAgregacao implements IJogadoresAgregacao {
 	private IIteradorJogadores interadorJogadores;
 	private ArrayList<JogadorModel> listaJogadores;
 	private int quantidadeJogadores;
 	private int jogadorInicial;
+	private DadoController dado;
+	private DadoView viewDado;
 	
 	public JogadoresAgregacao(int quantidadeJogadores, ArrayList<JogadorModel> listaJogadores) {
 		this.quantidadeJogadores = quantidadeJogadores;
 		this.listaJogadores = listaJogadores;
 		this.jogadorInicial = -1;
 		this.interadorJogadores = null;
+		
+		this.dado = new DadoController();
+		this.viewDado = new DadoView(this.dado);
 	}
 
 	public IIteradorJogadores criarIterador() {
@@ -26,8 +33,19 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 	}
 	
 	// tem que ser de 0 até numero de jogadores
-	public void definirJogadorInicial(JogadorModel jogador) {
-		this.jogadorInicial = this.listaJogadores.indexOf(jogador);
+	public void definirJogadorInicial() {
+		int somaMaior = -1, indexJogador = -1;
+		for (JogadorModel jogadorModel : listaJogadores) {
+			viewDado.jogaDados();
+			int valorSomado = dado.retornaValorSomado();
+			System.out.println(valorSomado) ;
+			if(valorSomado >= somaMaior){
+				somaMaior = valorSomado;
+				indexJogador = this.listaJogadores.indexOf(jogadorModel);
+			}
+		}
+		
+		this.jogadorInicial = indexJogador;
 	}
 	
 	public boolean adicionarJogador(int quantidadeInicial, String peca) {

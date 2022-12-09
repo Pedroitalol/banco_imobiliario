@@ -1,6 +1,5 @@
 package br.ufc.trabalhofinalpds.casa;
 
-import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 
 public interface ICasa {

@@ -48,7 +48,7 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 		this.iterador = this.jogadores.criarIterador();
 	}
 	
-	public void definirJogadorInicial(JogadorModel jogador){
-		this.jogadores.definirJogadorInicial(jogador);
+	public void definirJogadorInicial(){
+		this.jogadores.definirJogadorInicial();
 	}
 }

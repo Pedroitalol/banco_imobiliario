@@ -1,7 +1,5 @@
 package br.ufc.trabalhofinalpds.cartas;
 
-import br.ufc.trabalhofinalpds.jogadores.IIteradorJogadores;
-import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 
 import java.util.Random;

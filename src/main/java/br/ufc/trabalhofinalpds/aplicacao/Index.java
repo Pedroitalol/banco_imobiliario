@@ -28,7 +28,7 @@ public class Index {
 
 			// casas.executaAcao(2, teste.retornaJogadorAtual());
 			// casas.executaAcao(2, teste.retornaJogadorAtual());
-
+			teste.imprimeDadosJogadorAtual();
 			for(int i = 0; i < 10; i++){
 				teste.avancaJogadores();
 				teste.imprimeDadosJogadorAtual();

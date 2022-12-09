@@ -3,8 +3,8 @@ package br.ufc.trabalhofinalpds.jogadores;
 import java.util.Scanner;
 
 public class JogadoresAgregacaoView {
-	IJogadoresAgregacaoController jogadorController;
-	Scanner terminal;
+	private IJogadoresAgregacaoController jogadorController;
+	private Scanner terminal;
 	
 	public JogadoresAgregacaoView() {
 		this.terminal = new Scanner(System.in);
@@ -15,10 +15,9 @@ public class JogadoresAgregacaoView {
 	}
 
 	public void iniciaJogo() {
+		this.defineJogadorInicial();
 		if(this.jogadorController.retornaSePodeIniciarJogo()){
 			this.jogadorController.criarIterador();
-			// TODO aonde tem que ser feito
-			this.jogadorController.definirJogadorInicial(null);
 			System.out.println("Jogo iniciado com sucesso!");
 		}else{
 			System.out.println("Algo impediu a criação do jogo, numero de jogadores invalido!");
@@ -74,5 +73,9 @@ public class JogadoresAgregacaoView {
 	
 	public void avancaJogadores(){
 		this.jogadorController.avancaJogadores();
+	}
+
+	public void defineJogadorInicial(){
+		this.jogadorController.definirJogadorInicial();
 	}
 }

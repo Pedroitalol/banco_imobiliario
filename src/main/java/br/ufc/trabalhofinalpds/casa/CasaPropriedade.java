@@ -9,7 +9,6 @@ public class CasaPropriedade implements ICasa{
 	private int valorPropriedade;
 	private int valorAluguel;
 	private JogadorModel donoDaPropriedade;
-	private Scanner terminal;
 	private CasaView view;
 
 	public CasaPropriedade(String nome, int valorPropriedade, int valorAluguel) {
@@ -17,7 +16,7 @@ public class CasaPropriedade implements ICasa{
 		this.valorPropriedade = valorPropriedade;
 		this.valorAluguel = valorAluguel;
 		this.donoDaPropriedade = null;
-		this.terminal = new Scanner(System.in);
+		this.view = new CasaView();
 	}
 
 	public void executaAcao(JogadorModel jogadorAtual) {

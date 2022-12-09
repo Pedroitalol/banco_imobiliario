@@ -8,5 +8,5 @@ public interface IJogadoresAgregacao extends IAgregadorJogadores{
 	public String[] retornaNomesPecas();
 	public JogadorModel retornaJogadorAtual();
 	public boolean retornaSePodeIniciarJogo();
-	public void definirJogadorInicial(JogadorModel jogador);
+	public void definirJogadorInicial();
 }
