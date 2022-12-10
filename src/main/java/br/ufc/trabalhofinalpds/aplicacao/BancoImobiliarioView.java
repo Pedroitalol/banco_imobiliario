@@ -73,6 +73,7 @@ public class BancoImobiliarioView {
 
     private List<Node> casas;
     private JogadoresAgregacaoController jogadoresAgregacaoController;
+    private JogadorModel jogadorModel;
 
 
     @FXML
