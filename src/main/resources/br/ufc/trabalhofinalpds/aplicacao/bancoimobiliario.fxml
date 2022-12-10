@@ -9,9 +9,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="768.0" maxWidth="752.84" minHeight="768.0" minWidth="752.84" prefHeight="768.0" prefWidth="752.84" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufc.trabalhofinalpds.aplicacao.BancoImobiliarioView">
@@ -28,6 +30,19 @@
                                  <Image url="@img/prisao_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="9" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -36,6 +51,19 @@
                                  <Image url="@img/casa_av9dejulho_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="8" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -44,6 +72,19 @@
                                  <Image url="@img/casa_avreboucas_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="7" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -52,6 +93,19 @@
                                  <Image url="@img/companhia_de_viacao_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="6" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -60,6 +114,19 @@
                                  <Image url="@img/casa_avbfarialima_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children>
                      </Pane>
                      <Pane id="5" prefWidth="68.439" style="-fx-background-color: blue;">
@@ -69,6 +136,19 @@
                                  <Image url="@img/companhia_ferroviaria_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="4" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -77,6 +157,19 @@
                                  <Image url="@img/casa_avnsdecopacabana_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="3" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -85,6 +178,19 @@
                                  <Image url="@img/casa_avpresidente_vargas_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="2" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -93,6 +199,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="1" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -101,6 +220,19 @@
                                  <Image url="@img/casa_leblon_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="0" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -109,6 +241,19 @@
                                  <Image url="@img/ponto_partida_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children>
                      </Pane>
                   </children>
@@ -124,6 +269,19 @@
                                  <Image url="@img/parada_livre_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="21" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -132,6 +290,19 @@
                                  <Image url="@img/casa_flamengo_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="22" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -140,6 +311,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children>
                      </Pane>
                      <Pane id="23" prefWidth="68.439" style="-fx-background-color: blue;">
@@ -149,6 +333,19 @@
                                  <Image url="@img/casa_botafogo_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="24" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -157,6 +354,19 @@
                                  <Image url="@img/imposto_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="25" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -165,6 +375,19 @@
                                  <Image url="@img/companhia_de_navegacao_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="26" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -173,6 +396,19 @@
                                  <Image url="@img/casa_avbrasil_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="27" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -181,6 +417,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="28" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -189,6 +438,19 @@
                                  <Image url="@img/casa_avpaulista_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="29" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -197,6 +459,19 @@
                                  <Image url="@img/casa_jardim_europa_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="30" prefWidth="68.439" style="-fx-background-color: blue;">
                         <children>
@@ -205,6 +480,19 @@
                                  <Image url="@img/va_para_prisao_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                   </children>
                </HBox>
@@ -219,6 +507,19 @@
                                  <Image url="@img/casa_morumbi_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="18" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -227,6 +528,19 @@
                                  <Image url="@img/lucros_dividendos_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="17" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -235,6 +549,19 @@
                                  <Image url="@img/casa_interlagos_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="16" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -243,6 +570,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="15" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -251,6 +591,19 @@
                                  <Image url="@img/companhia_de_taxi_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="14" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -259,6 +612,19 @@
                                  <Image url="@img/casa_avpacaembu_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="13" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -267,6 +633,19 @@
                                  <Image url="@img/casa_rua_augusta_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="12" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -275,6 +654,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="11" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -283,6 +675,19 @@
                                  <Image url="@img/casa_aveuropa_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                   </children>
                </VBox>
@@ -297,6 +702,19 @@
                                  <Image url="@img/casa_copacabana_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="32" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -305,6 +723,19 @@
                                  <Image url="@img/companhia_de_aviacao_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="33" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -313,6 +744,19 @@
                                  <Image url="@img/casa_avvieira_souto_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="34" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -321,6 +765,19 @@
                                  <Image url="@img/casa_avatlantica_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="35" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -329,6 +786,19 @@
                                  <Image url="@img/companhia_taxi_aereo_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="36" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -337,6 +807,19 @@
                                  <Image url="@img/casa_ipanema_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="37" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -345,6 +828,19 @@
                                  <Image url="@img/sorte_reves_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="38" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -353,6 +849,19 @@
                                  <Image url="@img/casa_jardim_paulista_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                      <Pane id="39" prefHeight="69.817" style="-fx-background-color: blue;">
                         <children>
@@ -361,6 +870,19 @@
                                  <Image url="@img/casa_brooklin_imgb.jpg" />
                               </image>
                            </ImageView>
+                           <FlowPane prefHeight="70.0" prefWidth="68.439">
+                              <children>
+                                 <Circle fill="#00a136" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#dad83f" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#0080ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#b109ff" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                                 <Circle fill="#ff8800" radius="10.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                              </children>
+                              <padding>
+                                 <Insets bottom="5.0" left="13.0" right="5.0" top="5.0" />
+                              </padding>
+                           </FlowPane>
                         </children></Pane>
                   </children>
                </VBox>
@@ -467,9 +989,9 @@
                            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
                         </right>
                         <center>
-                           <AnchorPane maxHeight="324.0" maxWidth="300.0" prefHeight="324.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+                           <AnchorPane fx:id="centroView" maxHeight="324.0" maxWidth="300.0" prefHeight="324.0" prefWidth="300.0" BorderPane.alignment="CENTER">
                               <children>
-                                 <ImageView fx:id="casaview" fitHeight="304.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 <ImageView fx:id="casaview" disable="true" fitHeight="304.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                  <Label alignment="CENTER" text="Dono: Nenhum(a)" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                                     <font>
                                        <Font name="System Bold" size="12.0" />
@@ -485,7 +1007,7 @@
          </BorderPane>
       </children>
    </AnchorPane>
-   <VBox fx:id="menu" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+   <VBox fx:id="menu" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
       <children>
       
           <Label text="Banco Imobilariado">

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Diagrama de Classe/DiagramaBM.asta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiagramaBM.asta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogadores/JogadoresAgregacaoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
     </list>

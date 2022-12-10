@@ -370,12 +370,12 @@
                   <children>
                      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <top>
-                           <HBox fx:id="jogadores" prefHeight="100.0" prefWidth="200.0" spacing="5.0" BorderPane.alignment="CENTER">
+                           <HBox fx:id="jogadores" prefHeight="100.0" prefWidth="200.0" spacing="5.0" visible="false" BorderPane.alignment="CENTER">
                               <children>
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Verde" textFill="#00a136" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoVerde" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -384,7 +384,7 @@
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Vermelho" textFill="RED" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoVermelho" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -393,7 +393,7 @@
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Amarelo" textFill="#dad83f" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoAmarelo" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -402,7 +402,7 @@
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Azul" textFill="#0080ff" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoAzul" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -411,7 +411,7 @@
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Roxo" textFill="#b109ff" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoRoxo" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -420,7 +420,7 @@
                                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="100.0" spacing="10.0">
                                     <children>
                                        <Label text="Laranja" textFill="#ff8800" />
-                                       <Label text="R$ 0" />
+                                       <Label fx:id="saldoLaranja" text="R$ 0" />
                                     </children>
                                     <HBox.margin>
                                        <Insets bottom="8.0" top="8.0" />
@@ -429,7 +429,7 @@
                               </children></HBox>
                         </top>
                         <bottom>
-                           <HBox fx:id="dado" prefHeight="100.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                           <HBox fx:id="dado" prefHeight="100.0" prefWidth="100.0" visible="false" BorderPane.alignment="CENTER">
                               <children>
                                  <AnchorPane prefHeight="100.0" prefWidth="613.0">
                                     <children>
@@ -467,7 +467,7 @@
                            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
                         </right>
                         <center>
-                           <AnchorPane maxHeight="324.0" maxWidth="300.0" prefHeight="324.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+                           <AnchorPane fx:id="centroView" maxHeight="324.0" maxWidth="300.0" prefHeight="324.0" prefWidth="300.0" BorderPane.alignment="CENTER">
                               <children>
                                  <ImageView fx:id="casaview" fitHeight="304.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                                  <Label alignment="CENTER" text="Dono: Nenhum(a)" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
