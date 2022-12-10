@@ -4,6 +4,7 @@ import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 
 public interface ITabuleiroType {
     //para futuras implementações de novos tipos de tabuleiros.
-    public void executarAcao(int numeroCasa, JogadorModel jogadroAtual);
+
+    void executarAcao(int numeroCasa, JogadorModel jogadroAtual);
     public int retornaTamanho();
 }

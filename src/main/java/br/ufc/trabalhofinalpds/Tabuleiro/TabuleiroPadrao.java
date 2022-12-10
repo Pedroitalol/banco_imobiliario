@@ -7,8 +7,8 @@ import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
 
 public class TabuleiroPadrao implements ITabuleiroType {
     //para futuras implementações de novos tipos de tabuleiros.
-    private CasaAgregacao casas;
-    private int tamanho;
+    private final CasaAgregacao casas;
+    private final int tamanho;
 
     public TabuleiroPadrao(DadoController dado){
         //aqui cria as casas:
