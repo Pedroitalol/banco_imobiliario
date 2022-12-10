@@ -24,15 +24,6 @@ public class JogadorModel implements IObservador{
 	public String retornaPecaDoJogador() {
 		return this.pecaDoJogo;
 	}
-	
-	public void andarCasas(int numCasas) {
-		int falta = 40 - this.localNoTabuleiro;
-		if(falta < numCasas) {
-			this.localNoTabuleiro = numCasas - falta;
-		}else {
-			this.localNoTabuleiro = this.localNoTabuleiro + numCasas;
-		}
-	}
 
 	public int retornarDinheiro(){
 		return this.quantidadeDinheiro;
@@ -54,5 +45,9 @@ public class JogadorModel implements IObservador{
 		if(pecaAtual.equals(this.pecaDoJogo)){
 			this.quantidadeDinheiro += 200;
 		}
+	}
+
+	public void atualizaLocal(int novoLocal){
+		this.localNoTabuleiro = novoLocal;
 	}
 }
