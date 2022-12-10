@@ -12,7 +12,7 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 	}
 	
 	public void adicionarJogador(String peca) {
-		this.jogadores.adicionarJogador(2000, peca);
+		this.jogadores.adicionarJogador(2458, peca);
 	}
 	
 	public boolean removerJogador(String peca) {

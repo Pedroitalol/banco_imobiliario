@@ -38,7 +38,7 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 		for (JogadorModel jogadorModel : listaJogadores) {
 			this.viewDado.jogaDados();
 			int valorSomado = dado.retornaValorSomado();
-			System.out.println(valorSomado) ;
+			System.out.println(valorSomado);
 			if(valorSomado >= somaMaior){
 				somaMaior = valorSomado;
 				indexJogador = this.listaJogadores.indexOf(jogadorModel);

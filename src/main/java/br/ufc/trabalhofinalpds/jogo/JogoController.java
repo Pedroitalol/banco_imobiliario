@@ -1,5 +1,5 @@
 package br.ufc.trabalhofinalpds.jogo;
 
-public class JogadorController {
+public class JogoController {
     
 }
