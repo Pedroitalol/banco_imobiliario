@@ -1,23 +1,59 @@
 package br.ufc.trabalhofinalpds.jogo;
 
-import br.ufc.trabalhofinalpds.jogadores.JogadoresAgregacaoView;
+import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
+import br.ufc.trabalhofinalpds.jogadores.JogadoresAgregacaoController;
+
+import java.util.Map;
+
 import br.ufc.trabalhofinalpds.factoryBancoIM.*;
+
 public class JogoModel {
-    private JogadoresAgregacaoView jogadores;
+    private JogadoresAgregacaoController jogadorController;
     private  IFactoryBI fabrica;
     private ITabuleiroType tabuleiro;
+    private int quantidadeJogadores;
+    private Map<Integer, JogadorModel> relacao;
 
     public JogoModel (){
-        this.jogadores = new JogadoresAgregacaoView();
+        this.jogadorController = new JogadoresAgregacaoController();
 
-        jogadores.prepararJogo();
-
-        this.tabuleiro = this.fabrica.createBI(1, jogadores.retornaDado());
+        this.tabuleiro = this.fabrica.createBI(1, jogadorController.retornaDado());
     }
 
-    public void adicionaJogador(){
-        this.jogadores.adicionarJogador();
+    // pre condições: precisar já estar com os jogadores definidos
+    public String iniciaJogo() {
+		this.jogadorController.definirJogadorInicial();
+		if(this.jogadorController.retornaSePodeIniciarJogo()){
+			this.jogadorController.criarIterador();
+            JogadorModel jogadorAtual = this.jogadorController.retornaJogadorAtual();
+            
+			return jogadorAtual.retornaPecaDoJogador();
+		}else{
+			return "Algo impediu a criação do jogo, numero de jogadores invalido!";
+		}
+	}
+
+    public void defineQuantidadeJogadores(int quantidade){
+        this.quantidadeJogadores = quantidade;
     }
+
+    public void adicionaJogadores() {
+        String[] pecas = {"Verde", "Vermelho", "Amarelo", "Azul", "Roxo", "Laranja"};
+        for (int i = 0; i < this.quantidadeJogadores; i++) {
+            this.jogadorController.adicionarJogador(pecas[i]);
+        }
+    }
+
+    // 
+    public void avancarRodada(){
+
+        JogadorModel jogadorAtual =  this.jogadorController.retornaJogadorAtual();
+
+        
+
+    }
+
+
 
     
 }
