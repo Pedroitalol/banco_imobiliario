@@ -41,7 +41,6 @@ public class JogadoresAgregacaoController implements IJogadoresAgregacaoControll
 	}
 
 	public boolean retornaSePodeIniciarJogo(){
-		System.out.println("hegou aqui");
 		return this.jogadores.retornaSePodeIniciarJogo();
 	}
 
