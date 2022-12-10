@@ -1,8 +1,6 @@
 package br.ufc.trabalhofinalpds.casa;
 
-import br.ufc.trabalhofinalpds.jogadores.IJogadoresAgregacaoController;
 import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
-import java.util.Scanner;
 
 public class CasaPropriedade implements ICasa{
 	private String nomePropriedade;
