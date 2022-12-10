@@ -18,4 +18,8 @@ public class JogoController {
     public void adicionaJogadores() {
         this.jogo.adicionaJogadores();
     }
+
+    public void avancarRodada(){
+        this.jogo.avancarRodada();
+    }
 }
