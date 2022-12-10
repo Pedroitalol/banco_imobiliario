@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1b6474-bf2e-42f0-a0d7-9c4f9cae743e" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogo/JogadorController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/jogo/JogoModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -13,6 +14,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaCompanhia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaCompanhia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/casa/CasaPropriedade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/ITabuleiroType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/factoryBancoIM/ITabuleiroType.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/trabalhofinalpds/aplicacao/BancoImobiliarioView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufc/trabalhofinalpds/aplicacao/bancoimobiliario.fxml" afterDir="false" />
+>>>>>>> 6a0ad74ba78e4acb2f2623a2980b84e604fc405e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

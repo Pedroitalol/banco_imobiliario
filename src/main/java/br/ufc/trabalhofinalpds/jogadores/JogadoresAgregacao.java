@@ -38,7 +38,6 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 		for (JogadorModel jogadorModel : listaJogadores) {
 			this.viewDado.jogaDados();
 			int valorSomado = dado.retornaValorSomado();
-			System.out.println(valorSomado) ;
 			if(valorSomado >= somaMaior){
 				somaMaior = valorSomado;
 				indexJogador = this.listaJogadores.indexOf(jogadorModel);
@@ -138,7 +137,6 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 	}
 
 	public boolean retornaSePodeIniciarJogo(){
-		System.out.println(this.jogadorInicial + " " + this.quantidadeJogadores);
 		if(this.jogadorInicial != -1 || this.quantidadeJogadores < 2 || this.quantidadeJogadores > 6) {
 			return true;
 		}else {
@@ -148,5 +146,9 @@ public class JogadoresAgregacao implements IJogadoresAgregacao {
 
 	public DadoController retornaDado(){
 		return this.dado;
+	}
+
+	public void movimentaJogador(String peca, int novaCasa){
+		this.retornaJogador(peca).atualizaLocal(novaCasa);
 	}
 }

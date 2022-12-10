@@ -1,15 +1,14 @@
 package br.ufc.trabalhofinalpds.aplicacao;
 
+import br.ufc.trabalhofinalpds.jogadores.JogadorModel;
+import br.ufc.trabalhofinalpds.jogadores.JogadoresAgregacaoController;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -45,7 +44,35 @@ public class BancoImobiliarioView {
     @FXML
     private AnchorPane centroTab;
 
+    @FXML
+    private HBox jogadores;
+
+    @FXML
+    private HBox dado;
+
+    @FXML
+    private Label saldoVerde;
+
+    @FXML
+    private Label saldoVermelho;
+
+    @FXML
+    private Label saldoAmarelo;
+
+    @FXML
+    private Label saldoAzul;
+
+    @FXML
+    private Label saldoRoxo;
+
+    @FXML
+    private Label saldoLaranja;
+
+    @FXML
+    private AnchorPane centroView;
+
     private List<Node> casas;
+    private JogadoresAgregacaoController jogadoresAgregacaoController;
 
 
     @FXML
@@ -62,6 +89,9 @@ public class BancoImobiliarioView {
                 throw new NumberFormatException();
             }
             menu.setVisible(false);
+            jogadores.setVisible(true);
+            dado.setVisible(true);
+            centroView.setVisible(true);
             prepararCasas();
             centroTab.setVisible(true);
         } catch (NumberFormatException e){
@@ -103,4 +133,26 @@ public class BancoImobiliarioView {
         casaview.setImage(imagemCasa.getImage());
     }
 
+    public void valorInicial(){
+
+    }
+
+    public void calcularPosicoes(){
+        String[] nomes = jogadoresAgregacaoController.retornaNomesPecas();
+
+        for (int i = 0; i < nomes.length; i++) {
+            JogadorModel j = jogadoresAgregacaoController.retornaJogador(nomes[i]);
+            int pos = j.retornaLocalNoTabuleiro();
+
+            Pane casa = (Pane) casas.get(pos);
+            FlowPane jPane = (FlowPane) casa.getChildren().get(1);
+            jPane.getChildren().get(i).setVisible(true);
+
+            final int ii = i;
+            casas.forEach(c -> {
+                FlowPane op = ((FlowPane) ((Pane) c).getChildren().get(1));
+                op.getChildren().get(ii).setVisible(false);
+            });
+        }
+    }
 }
