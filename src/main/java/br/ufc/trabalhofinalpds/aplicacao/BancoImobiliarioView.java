@@ -45,6 +45,32 @@ public class BancoImobiliarioView {
     @FXML
     private AnchorPane centroTab;
 
+    @FXML
+    private HBox jogadores;
+
+    @FXML
+    private HBox dado;
+
+    @FXML
+    private Label saldoVerde;
+
+    @FXML
+    private Label saldoVermelho;
+
+    @FXML
+    private Label saldoAmarelo;
+
+    @FXML
+    private Label saldoAzul;
+
+    @FXML
+    private Label saldoRoxo;
+
+    @FXML
+    private Label saldoLaranja;
+
+    @FXML
+
     private List<Node> casas;
 
 
@@ -103,4 +129,7 @@ public class BancoImobiliarioView {
         casaview.setImage(imagemCasa.getImage());
     }
 
+    public void valorInicial(){
+
+    }
 }
